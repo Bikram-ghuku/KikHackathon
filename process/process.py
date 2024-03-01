@@ -7,7 +7,7 @@ i = 1
 for field in fields.career_options_comp:
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + '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',
+        'Authorization': 'Bearer ' + 'OPENAPI_KEY',
     }
 
     json_data = {
